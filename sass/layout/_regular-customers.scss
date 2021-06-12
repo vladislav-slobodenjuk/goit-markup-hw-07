@@ -1,0 +1,38 @@
+.customer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.customer-list-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 180px) / 6);
+}
+
+.customer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  color: var(--icon-color);
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+
+  transition: color var(--trans-duration) var(--timing-function),
+    border var(--trans-duration) var(--timing-function);
+}
+
+.customer-icon {
+  fill: currentColor;
+}
+
+.customer-link:hover,
+.customer-link:focus {
+  color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  animation: pulse 1000ms var(--timing-function);
+}
