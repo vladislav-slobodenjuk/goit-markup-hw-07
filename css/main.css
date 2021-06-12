@@ -1,1 +1,172 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+:root {
+  --logo-font: 'Raleway', sans-serif;
+  --primary-font: 'Roboto', sans-serif;
+  --brand-color: #2196f3;
+  --logo-secondary-color: #000000;
+  --text-color: #757575;
+  --text-secondary-color: #ffffff;
+  --mdl-btn-hover-bckgrnd: #188ce8;
+  --title-color: #212121;
+  --hero-background: rgba(47, 48, 58, 0.4);
+  --footer-background: #2f303a;
+  --secondary-background: #f5f4fa;
+  --address-secondary-color: rgba(255, 255, 255, 0.6);
+  --header-border: #ececec;
+  --project-border: #eeeeee;
+  --icon-color: #afb1b8;
+  --icon-footer-bg: rgba(255, 255, 255, 0.1);
+  --mdl-placeholder-color: rgba(117, 117, 117, 0.5);
+  --valid: green;
+  --invalid: red;
+  --do-overlay: rgba(47, 48, 58, 0.8);
+  --project-overlay: rgba(33, 150, 243, 0.9);
+  --modal-overlay: rgba(0, 0, 0, 0.2);
+  --trans-duration: 250ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary-color);
+  background-color: var(--brand-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--trans-duration) var(--timing-function);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--mdl-btn-hover-bckgrnd);
+  animation: flip 750ms var(--timing-function) 150ms;
+}
+
+.logo-link {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+  animation-delay: 300ms;
+}
+
+.logo-link-part-header {
+  color: var(--logo-secondary-color);
+}
+
+.logo-link-part-footer {
+  color: var(--text-secondary-color);
+}
+
+.title {
+  color: var(--title-color);
+  font-size: inherit;
+  line-height: 1.14;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--icon-color);
+  transition: color var(--trans-duration) var(--timing-function), background-color var(--trans-duration) var(--timing-function);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--brand-color);
+  color: var(--text-secondary-color);
+  animation: heartBeat-test 1000ms var(--timing-function) 0ms;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+/*# sourceMappingURL=main.css.map */

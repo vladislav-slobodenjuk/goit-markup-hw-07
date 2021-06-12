@@ -1,0 +1,33 @@
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--icon-color);
+
+  transition: color var(--trans-duration) var(--timing-function),
+    background-color var(--trans-duration) var(--timing-function);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--brand-color);
+  color: var(--text-secondary-color);
+  animation: heartBeat-test 1000ms var(--timing-function) 0ms;
+}
+
+.social-icon {
+  fill: currentColor;
+}
