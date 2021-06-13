@@ -526,31 +526,30 @@ img {
   align-items: center;
 }
 
-.features-list-item {
+.features-list__item {
   width: 270px;
 }
 
-.features-list-item:not(:last-child) {
+.features-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-icon-block {
+.features-list__block {
   display: flex;
-  align-items: center;
   justify-content: center;
-  /* width: 270px; */
+  align-items: center;
   height: 120px;
+  margin-bottom: 30px;
   background-color: var(--secondary-background);
   border-radius: 4px;
-  margin-bottom: 30px;
 }
 
-.features-list-item-title {
-  text-transform: uppercase;
+.features-list__title {
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
-.features-list-item-desc {
+.features-list__desc {
   line-height: 1.7;
 }
 

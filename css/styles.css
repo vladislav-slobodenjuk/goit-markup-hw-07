@@ -273,15 +273,15 @@ body {
   align-items: center;
 }
 
-.features-list-item {
+.features-list__item {
   width: 270px;
 }
 
-.features-list-item:not(:last-child) {
+.features-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-icon-block {
+.features-list__block {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -292,12 +292,12 @@ body {
   margin-bottom: 30px;
 }
 
-.features-list-item-title {
+.features-list__title {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.features-list-item-desc {
+.features-list__desc {
   line-height: 1.7;
 }
 
