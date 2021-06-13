@@ -520,20 +520,20 @@ img {
   color: var(--text-secondary-color);
 }
 
-.features-list {
+.features__list {
   display: flex;
   align-items: center;
 }
 
-.features-list__item {
+.features__item {
   width: 270px;
 }
 
-.features-list__item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-list__block {
+.features__block {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -543,12 +543,12 @@ img {
   border-radius: 4px;
 }
 
-.features-list__title {
+.features__title {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 
-.features-list__desc {
+.features__desc {
   line-height: 1.7;
 }
 

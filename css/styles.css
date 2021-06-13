@@ -268,20 +268,20 @@ body {
 /* ========= END HERO ====================================*/
 
 /* ========= FEATURES ===================================*/
-.features-list {
+.features__list {
   display: flex;
   align-items: center;
 }
 
-.features-list__item {
+.features__item {
   width: 270px;
 }
 
-.features-list__item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-list__block {
+.features__block {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -292,12 +292,12 @@ body {
   margin-bottom: 30px;
 }
 
-.features-list__title {
+.features__title {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.features-list__desc {
+.features__desc {
   line-height: 1.7;
 }
 
