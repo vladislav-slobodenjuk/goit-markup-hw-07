@@ -557,38 +557,38 @@ img {
   padding-top: 0;
 }
 
-.what-we-do-img-list {
+.what-we-do__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.what-we-do-img-list-item {
+.what-we-do__item {
+  position: relative;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
-  position: relative;
 }
 
-.what-we-do-overlay-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 70px;
-  padding: 27px 82px;
+.what-we-do__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 70px;
+  padding: 27px 82px;
   background-color: var(--do-overlay);
 }
 
-.what-we-do-overlay-text {
+.what-we-do__title {
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--text-secondary-color);
   text-align: center;
+  color: var(--text-secondary-color);
 }
 
 .team {

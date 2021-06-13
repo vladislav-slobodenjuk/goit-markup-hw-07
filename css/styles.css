@@ -308,14 +308,14 @@ body {
   padding-top: 0;
 }
 
-.what-we-do-img-list {
+.what-we-do__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.what-we-do-img-list-item {
+.what-we-do__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
@@ -323,7 +323,7 @@ body {
   position: relative;
 }
 
-.what-we-do-overlay-block {
+.what-we-do__overlay {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -338,7 +338,7 @@ body {
   background-color: var(--do-overlay);
 }
 
-.what-we-do-overlay-text {
+.what-we-do__title {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--text-secondary-color);
