@@ -89,7 +89,7 @@ body {
 }
 
 /* ========= COMPONENTS ======================================*/
-.logo-link {
+.logo {
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
@@ -100,11 +100,11 @@ body {
   animation-delay: 300ms;
 }
 
-.logo-link-part-header {
+.logo__logo-header {
   color: var(--logo-secondary-color);
 }
 
-.logo-link-part-footer {
+.logo__logo-footer {
   color: var(--text-secondary-color);
 }
 
@@ -130,18 +130,18 @@ body {
   border-bottom: 1px solid var(--header-border);
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
 
-.nav-menu {
+.menu {
   display: flex;
   align-items: center;
 }
@@ -151,11 +151,11 @@ body {
   align-items: center;
 }
 
-.header .logo-link {
+.header .logo {
   margin-right: 94px;
 }
 
-.nav-menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -493,7 +493,7 @@ body {
   font-style: normal;
 }
 
-.footer .logo-link {
+.footer .logo {
   margin-bottom: 20px;
 }
 

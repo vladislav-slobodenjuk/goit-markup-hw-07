@@ -1,4 +1,4 @@
-.logo-link {
+.logo {
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
@@ -9,10 +9,10 @@
   animation-delay: 300ms;
 }
 
-.logo-link-part-header {
+.logo__logo-header {
   color: var(--logo-secondary-color);
 }
 
-.logo-link-part-footer {
+.logo__logo-footer {
   color: var(--text-secondary-color);
 }

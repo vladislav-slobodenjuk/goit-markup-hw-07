@@ -4,18 +4,18 @@
   border-bottom: 1px solid var(--header-border);
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
 
-.nav-menu {
+.menu {
   display: flex;
   align-items: center;
 }
@@ -25,11 +25,11 @@
   align-items: center;
 }
 
-.header .logo-link {
+.header .logo {
   margin-right: 94px;
 }
 
-.nav-menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
