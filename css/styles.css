@@ -146,7 +146,7 @@ body {
   align-items: center;
 }
 
-.header-contacts {
+.header-contact {
   display: flex;
   align-items: center;
 }
@@ -159,7 +159,7 @@ body {
   margin-right: 50px;
 }
 
-.header-mail {
+.header__mail {
   margin-right: 50px;
 }
 
@@ -201,7 +201,7 @@ body {
   bottom: 0;
 }
 
-.header-icon {
+.header-contact__icon {
   margin-right: 10px;
   fill: currentColor;
 }
