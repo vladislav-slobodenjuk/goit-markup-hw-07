@@ -3,12 +3,13 @@
   background-color: var(--text-secondary-color);
   border-bottom: 1px solid var(--header-border);
 
-  .&__container {
+  &__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .&__nav {
+
+  &__nav {
     display: flex;
     align-items: center;
   }
@@ -18,7 +19,7 @@
   display: flex;
   align-items: center;
 
-  .&__item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 50px;
   }
 }
@@ -27,7 +28,7 @@
   display: flex;
   align-items: center;
 
-  .&__icon {
+  &__icon {
     margin-right: 10px;
     fill: currentColor;
   }
@@ -51,14 +52,20 @@
 
   position: relative;
   transition: color var(--trans-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+    animation: headShake-test 750ms var(--timing-function);
+  }
 }
 
 .mail-link,
 .tel-link {
   color: var(--text-color);
 
-  .&:hover,
-  .&:focus {
+  &:hover,
+  &:focus {
     color: var(--brand-color);
     animation: headShake-test 750ms var(--timing-function);
   }
@@ -67,7 +74,7 @@
 .current {
   color: var(--brand-color);
 
-  .&::after {
+  &::after {
     content: '';
     display: block;
     width: 100%;
