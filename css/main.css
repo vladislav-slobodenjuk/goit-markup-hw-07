@@ -595,14 +595,16 @@ img {
   background-color: var(--secondary-background);
 }
 
-.team-list {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
-.team-list-item {
+.team__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
@@ -610,26 +612,21 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-member-container {
-  background-color: var(--text-secondary-color);
-  border-radius: 0px 0px 4px 4px;
+.team__container {
   padding: 30px 32px;
   text-align: center;
+  background-color: var(--text-secondary-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.team-list {
-  font-size: 16px;
-  line-height: 1.19;
-}
-
-.team-member {
+.team__member {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: inherit;
   line-height: inherit;
-  margin-bottom: 10px;
 }
 
-.position {
+.team__job {
   margin-bottom: 16px;
 }
 
